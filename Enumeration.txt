@@ -1,0 +1,21 @@
+80/443 - 192.168.198.129 12:39 1 oct 2020
+Default Web Page - Apache PHP
+Information Disclosure 404 Page
+	--127.0.0.1 Port 443
++ mod_ssl/2.8.4 - mod_ssl 2.8.7 and lower are vulnerable to a remote buffer overflow which may allow a remote shell. 
+http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0082, OSVDB-756.
+
+- Information Disclosure 
+	Server Headers Disclosed Versions
+
+http://192.168.198.129/usage/usage_202010.html-
+Webalizer Version 2.01
+
+SMB
+
+[*] 192.168.198.129:139   - Host could not be identified: Unix (Samba 2.2.1a)
+[*] 192.168.198.129:445   - Scanned 1 of 1 hosts (100% complete)
+[*] Auxiliary module execution completed
+
+SSH
+22/tcp    open  ssh         OpenSSH 2.9p2 (protocol 1.99)
